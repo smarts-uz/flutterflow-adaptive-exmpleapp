@@ -5,11 +5,12 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
+import 'main_users_widget.dart' show MainUsersWidget;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-class MainUsersModel extends FlutterFlowModel {
+class MainUsersModel extends FlutterFlowModel<MainUsersWidget> {
   ///  Local state fields for this page.
 
   int selectedPage = 2;
